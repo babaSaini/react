@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+.center-container {
+  display: flex;
+  justify-content: space-between;
+  width: min(90%, 60em);
+  align-items: center;
+  margin: auto 90px auto 170px;
+  bottom: 30px;
+}
+.main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("shutterstock_325738790-2880w.webp");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 10%;
+
+}

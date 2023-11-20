@@ -3,23 +3,34 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+<>
+<div class="main">
+<div className="center-container">
+            <div>
+                <div className="rate">
+                    <div className="rate_num">
+                        <p>4.9</p>
+                    </div>
+                    <div>
+                        <img src="Group 113.png" alt="error!!!!!!!" className="rate_star"/>
+                    </div>
+                </div>
+                <div className="rate_text">
+                    <p>(106 Ratings & Reviews)</p>
+                    <h3>(360) 623-9035</h3>
+                </div>
+            </div>
+            <div className="logo1">
+                <img src="logo.webp" alt="top_weather_logo"/>
+            </div>
+            <div className="button1">
+                <button>Request an Estimate</button>
+                <p className="link-button__text">Serving Thurston, Lewis, Mason, and Grays Harbor Counties, WA</p>
+            </div>
+        </div>
+        </div>
+</>
+);
 }
 
-export default App;
+                      export default App;
