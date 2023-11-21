@@ -178,10 +178,10 @@ function App() {
                         <h3>SERVING</h3>
                         <p>Thurston County, Lewis County, Mason County, & Surrounding Area's</p>
                     </div>
-                    <div>
+                    <div className="time">
                         <img src={time_icon} alt="time_icon" className="details_img" />
                         <h3>HOURS</h3>
-                        <div>
+                        <div className="details_time">
                             <div>
                                 <p>Mon - Fri</p>
                                 <p>Sat</p>

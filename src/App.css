@@ -117,35 +117,34 @@ dd {
 }
 
 .main .lin {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 50px;
+  background-color: white;
+  padding: 50px;
+  outline: 2px solid blue;
+  
+}
+.lin_content1 p{
+  width: 80%;
+  margin-inline: auto;
 }
 .lin_head{
-    display: inline-block;
-    outline: 2px solid red;
-    text-align: center;
-    color: rgba(188,17,35,1);
+  text-align: center;
+  color: rgba(188,17,35,1);
 }
 .lin_content{
-    width: 75em;
-    height: 15em;
-    outline: 2px solid red;
-    display:flex;
-    padding-top: 3em;
-    justify-content: space-evenly;
+  display:flex;
+  padding-top: 3em;
+  justify-content: space-evenly;
+  gap: 2em;
+  width: 70%;
+  margin-inline: auto ;
 }
 
 .lin_content1{
-    outline: 2px solid red;
-    display: flex;
-    flex-direction: column;
-    width: 14em;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
     
 }
 .lin_content1 button{
@@ -218,6 +217,14 @@ align-items: center;
   align-items: center;
   flex-direction: column;
 }
+.time{
+  text-align: center;
+}
+.details_time{
+  outline:2px solid #d94f5c;
+  display: flex;
+  justify-content: space-between;
+}
 .place{
   text-align: center;
 }
@@ -244,12 +251,17 @@ align-items: center;
 }
 
 .img1 {
-    display: flex;
-    justify-content: space-between;
-    padding-right: 4em;
-    outline: 2px solid red;
-    color: white;
-    position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 4em;
+  color: white;
+  position: relative;
+}
+.img1 div p{
+  text-align: center;
+}
+.img1 img{
+  object-fit: contain;
 }
 
 .inline-image {
